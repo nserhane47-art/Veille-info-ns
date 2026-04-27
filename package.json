@@ -1,0 +1,20 @@
+{
+  "name": "veille-pro",
+  "version": "1.0.0",
+  "description": "Outil de veille informationnelle - Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "rss-parser": "^3.13.0",
+    "google-trends-api": "^4.9.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
